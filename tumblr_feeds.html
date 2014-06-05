@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Jake Watts</title>
+	
+	<script src="http://code.jquery.com/jquery-1.7.js"></script>
+		<link href="styles/style.css" rel="stylesheet" type="text/css">
+        <link rel="shortcut icon" href="Asstes/Other/icon.bmp">
+  <link href="styles/normalize.css" rel="stylesheet" type"text/css">
+	<script type="text/javascript">
+	
+	//mandatory----------------
+	var tumblrBlogLink="http://sausag3rolls809.tumblr.com/";	
+	var tumblrApiKey="rvEK5rEkzISep8NXWGccBIPbUu8yBjFC48sckAqw5JFvMYePsa";
+	
+	//optional-----------------
+	var tumbaxWidgetWidth = 800; 
+	var pathToLoadingImage = './loader.gif';
+	var tumbaxColumns = 2;
+
+	
+	
+	/*
+	var tumblrBlogLink="http://loor-audiovisual.tumblr.com";
+	var tumblrBlogLink="http://assassincreeds.tumblr.com";
+	var tumblrBlogLink="http://starsinatelescope.tumblr.com";
+	var tumblrBlogLink="http://edoro.tumblr.com";
+	var tumblrBlogLink="http://pizzeta.tumblr.com";
+	var tumblrBlogLink="http://aegilaetus.tumblr.com/";
+	
+	
+	var tumblrApiKey="fuiKNFp9vQFvjLNvx4sUwti4Yb5yGutBN4Xh10LXZhhRKjWlV4";
+	*/
+	//optional parameters-----------------------------------------------
+	
+	
+	function goClicked() {
+		$('#tumbax').empty();
+		tumblrBlogLink=$('#tumblrBlogLink').val();
+		
+		prepareTumbax();
+	}
+	
+	</script>
+
+	
+<style>
+
+      body {
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+		text-align:center;
+      }	  
+	  #tumbax-header{display:none !important;}
+	  
+	  
+	  
+		
+	</style>
+
+</head>
+  <body>
+  <div id="navigation">   <!--Deals with the Nav bar-->
+    	<a href="index.html">Home</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+        <a href="tumblr_feeds.html">Tumblr</a>
+    </div>
+  <div id="content">
+  <div id="spacer">
+  </div>
+  <div id="tumblr">
+  <a href="http://sausag3rolls809.tumblr.com"><img src="Asstes/Other/tumblr.png" width="501" height="157" alt=""/></a>
+  </div>
+
+		
+		<div id="tumbax">
+		</div>
+	
+		<script src="./tumbax.min.js"></script>
+        
+        
+
+    <div id="bottom">
+www.jake-watts.com
+</div>
+  </body>
+</html>
+
+
+
