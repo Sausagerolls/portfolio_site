@@ -1,12 +1,12 @@
 @charset "utf-8";
 /* CSS Document */
-@import url(http://fonts.googleapis.com/css?family=Roboto);
+
 
 body{
 background-color: #333333;
 	text-align: center;
 	min-height: 100%;
-	font-family: Roboto, "Roboto", sans-serif;
+	font-family: "Roboto", sans-serif;
    
     
 }
@@ -14,12 +14,12 @@ background-color: #333333;
 
 h1{
 	text-align: center;	
-	font-family: Roboto, "Roboto", sans-serif;
+	font-family: "Roboto";
 }
 
 h5{
 	text-align: center;
-	font-family: Roboto, "Roboto", sans-serif;
+	font-family: "Roboto";
 	font-size: x-large;
 }
 
@@ -139,9 +139,19 @@ font-family: 'Roboto', sans-serif;
 }
 
 #portfolio{
-	background-color: #2E4664;
+	background-color: #fff;
 	text-align: center;
-	margin-bottom: 100px;
+	margin-bottom: 20px;     
+}
+
+#portfoliotext{
+    font-family: 'Roboto';
+    color: grey;
+    font-size: 70px; 
+    text-align: right;
+    padding-right: 20px;
+    padding-top: 50px;
+
 }
 
 #profile{
