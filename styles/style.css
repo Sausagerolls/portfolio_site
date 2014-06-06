@@ -33,7 +33,7 @@ h2{
 #content{
 	width: 870px;
 	background-repeat: repeat-y;
-	background-color: rgba(232,232,232,1.00);
+	background-color: #fff;
 	
 	margin: 49px auto 0 auto;
 	overflow: hidden;
@@ -356,11 +356,14 @@ appspost2{
 	}
 	
 apppost22{
-	width: 610px;
+	width: 500px;
 	height: 200px;
 	float: right;
 	margin-right: 10px;
-	text-align: left;
+	text-align:justify;
+    margin-right: 30px;
+    padding-bottom: 150px;
+    
 		}
 apppost1images{
 	width: 870px;
